@@ -7,13 +7,6 @@ env = ProstheticsEnv(visualize=True)
 print("2. Attempting Reset...")
 observation = env.reset()
 
-# try:
-#     # We call reset() - this is where the LAPACK crash usually happens
-#     observation = env.reset()
-#     print("Success! Environment is ready.")
-# except Exception as e:
-#     print(f"Failed at reset. Error: {e}")
-
 # The reward loop
 print("3. Running simulation steps...")
 total_reward = 0.0
