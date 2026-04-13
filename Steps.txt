@@ -5,4 +5,7 @@ Download miniconda
     conda activate {{{env_name}}}
 3- DON'T change the directory -> keep working on C: or the same dir were anaconda is installed
 4- run the python script on anaconda promped 
-    python "file_path_from_the_root"
+    python "file_path_from_the_root/prosthetic.py"
+
+
+prosthetic model: D:\Projects\osim-rl\osim\models\gait14dof22musc_pros_20180507.osim
