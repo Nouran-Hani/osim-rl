@@ -1,0 +1,8 @@
+Download miniconda
+1- Create an env on conda
+    conda create -n {{{env_name}}} -c opensim-org opensim python=3.8
+2- Activate it
+    conda activate {{{env_name}}}
+3- DON'T change the directory -> keep working on C: or the same dir were anaconda is installed
+4- run the python script on anaconda promped 
+    python "file_path_from_the_root"
