@@ -14,6 +14,7 @@ for i in range(200):
     # Use a random action instead of my_controller to test stability
     action = env.action_space.sample() 
     observation, reward, done, info = env.step(action)
+    print(f"Step {i}: Reward={reward:.4f}, Done={done}")
     total_reward += reward
     if i % 50 == 0:
         print(f"   ...at step {i}")
