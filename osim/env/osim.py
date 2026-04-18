@@ -899,7 +899,7 @@ def rect(row):
     return np.array([x,y,z])
 
 class ProstheticsEnv(OsimEnv):
-    prosthetic = True
+    prosthetic = False
     model = "3D"
     def get_model_key(self):
         return self.model + ("_pros" if self.prosthetic else "")
