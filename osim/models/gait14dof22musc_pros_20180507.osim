@@ -2948,7 +2948,7 @@
 					<!--Name of the coordinate to which this force is applied.-->
 					<coordinate>ankle_angle_r</coordinate>
 					<!--Spring stiffness.-->
-					<stiffness>225</stiffness>
+					<stiffness>450</stiffness>
 					<!--Coordinate value at which spring produces no force.-->
 					<rest_length>0</rest_length>
 					<!--Damping constant.-->

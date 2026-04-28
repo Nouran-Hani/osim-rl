@@ -73,7 +73,7 @@ if __name__ == "__main__":
     obs = test_env.reset()
     total_reward = 0.0
 
-    for i in range(1000):
+    for i in range(100):
         action, _states = model.predict(obs, deterministic=True)
         
         # Old gym format: step returns FOUR variables
